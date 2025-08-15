@@ -28,7 +28,7 @@ const ASSET_DEFAULTS = {
 
 // Read default API key from env (falls back to placeholder).
 // You can set VITE_OPENAI_API_KEY in a .env file at the project root.
-const DEFAULT_API_KEY = (import.meta?.env && import.meta.env.VITE_OPENAI_API_KEY) || "sk-REPLACE_WITH_YOUR_KEY";
+const DEFAULT_API_KEY = (import.meta?.env && import.meta.env.VITE_OPENAI_API_KEY) || "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";
 
 // ------------------------------ Utils
 const cls = (...xs) => xs.filter(Boolean).join(" ");
